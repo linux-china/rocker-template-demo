@@ -16,7 +16,7 @@ public class PortalController {
     @GetMapping(value = "/")
     @ResponseBody
     public RockerModel index() {
-        return templates.Index.template("Welcome", "欢迎光临");
+        return templates.Index.template("Welcome", "Hi, Welcome to Rocker!");
     }
 
     @GetMapping("/hello")
