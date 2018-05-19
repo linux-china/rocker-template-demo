@@ -73,6 +73,7 @@
                     <javaVersion>1.8</javaVersion>
                     <templateDirectory>${project.basedir}/src/main/resources</templateDirectory>
                     <targetCharset>utf-8</targetCharset>
+                    <!--<optimize>true</optimize>-->
                 </configuration>
             </plugin>
         </plugins>
