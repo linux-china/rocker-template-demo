@@ -16,7 +16,7 @@ public class WebConfig extends WebMvcConfigurationSupport {
 
     @Override
     public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
-        super.addDefaultHttpMessageConverters(converters);
         converters.add(new RockerMessageConverter());
+        super.addDefaultHttpMessageConverters(converters);
     }
 }
