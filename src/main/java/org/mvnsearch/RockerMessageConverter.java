@@ -43,7 +43,7 @@ public class RockerMessageConverter extends AbstractHttpMessageConverter<RockerM
 
     @Override
     protected RockerModel readInternal(Class<? extends RockerModel> clazz, HttpInputMessage inputMessage) throws IOException, HttpMessageNotReadableException {
-        throw new HttpMessageNotReadableException("Input not supported by Rocker");
+        throw new HttpMessageNotReadableException("Input not supported by Rocker", inputMessage);
     }
 
 }
