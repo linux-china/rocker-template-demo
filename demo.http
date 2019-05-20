@@ -1,4 +1,10 @@
 ### get rocker template
 GET http://localhost:8080/
 
+###  REST API
+GET http://localhost:8080/hello
+
+### Get static resource
+GET http://localhost:8080/blah.css
+
 ###
