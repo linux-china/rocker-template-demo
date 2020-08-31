@@ -3,7 +3,7 @@ package org.mvnsearch;
 import com.fizzed.rocker.BindableRockerModel;
 import com.fizzed.rocker.Rocker;
 import com.fizzed.rocker.RockerModel;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * template test
